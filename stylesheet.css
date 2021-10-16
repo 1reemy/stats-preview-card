@@ -1,0 +1,42 @@
+main{
+    padding: 100px;
+    background-color: hsl(233, 47%, 7%);
+}
+.card{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border:10px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: blue; 
+    margin:auto;
+    width: 1080px;       
+}
+.left{
+    font-size: 15px;
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-weight: 500;
+    width: 50%;   
+}
+.right{
+    width:50%;                  
+}
+img{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: -4px;
+    max-height: 100%;
+    max-width:100%;
+}
+.packages{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
